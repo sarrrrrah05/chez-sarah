@@ -34,8 +34,6 @@ function HotDrinks({ addToCart }) {
 
       <div style={{ textAlign: "center", marginTop: "40px" }}>
         <button className="btn" onClick={() => navigate("/cart")}>Finish My Order 🛍️</button>
-
-        <a href="/menu" className="btn" style={{ marginLeft: "15px" }}>Back to Menu</a>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import { FaShoppingCart } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 function ColdDrinks({ addToCart }) {
 
@@ -37,8 +37,6 @@ function ColdDrinks({ addToCart }) {
 
       <div style={{ textAlign: "center", marginTop: "40px" }}>
         <button className="btn" onClick={() => navigate("/cart")}>Finish My Order 🛍️</button>
-
-        <a href="/menu" className="btn" style={{ marginLeft: "15px" }}>Back to Menu</a>
       </div>
     </section>
   );

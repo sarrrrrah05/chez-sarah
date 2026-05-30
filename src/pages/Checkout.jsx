@@ -72,16 +72,15 @@ function Checkout({ cart }) {
             <textarea id="notes" placeholder="Additional Notes"></textarea>
 
             <button type="submit"> Confirm Order </button>
+
+            {orderSent && (
+              <div className="success-message">
+                <h3>Your Order Has Been Sent Successfully 🌸</h3>
+              </div>
+            )}
           </form>
         </div>
       )}
-
-      {orderSent && (
-        <div className="success-message">
-          <h3>Your Order Has Been Sent Successfully 🌸</h3>
-        </div>
-      )}
-
     </section>
   );
 }

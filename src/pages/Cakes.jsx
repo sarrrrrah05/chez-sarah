@@ -12,11 +12,7 @@ function Cakes({ addToCart }) {
   return (
     <section className="menu">
       <div style={{ textAlign: "center", marginBottom: "50px" }}>
-        <h2 style={{ fontSize: "40px", color: "#fc0685" }}>Sweet Menu</h2>
-
-        <h3 style={{ fontSize: "28px", margin: "10px 0" }}>Chez Sarah</h3>
-
-        <p style={{ fontSize: "18px", color: "#555" }}>Weekly Specials</p>
+        <h2 style={{ fontSize: "40px", color: "#fc0685" }}>Cakes Menu</h2>
       </div>
 
       <div className="menu-container">
@@ -41,8 +37,6 @@ function Cakes({ addToCart }) {
       </div>
       <div style={{ textAlign: "center", marginTop: "40px" }}>
         <button className="btn" onClick={() => navigate("/cart")}>Finish My Order 🛍️</button>
-
-        <a href="/menu" className="btn" style={{ marginLeft: "15px" }}>Back to Menu</a>
       </div>
     </section>
   );
