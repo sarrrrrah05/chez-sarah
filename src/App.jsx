@@ -24,10 +24,14 @@ function App() {
     setCart([...cart, item]);
   };
 
-  const removeFromCart = (index) => {
-    const updatedCart = [...cart];
-    updatedCart.splice(index, 1);
-    setCart(updatedCart);
+  const removeFromCart = (name) => {
+    const index = cart.findIndex(item => item.name === name);
+
+    if (index !== -1) {
+      const newCart = [...cart];
+      newCart.splice(index, 1);
+      setCart(newCart);
+    }
   };
 
   return (

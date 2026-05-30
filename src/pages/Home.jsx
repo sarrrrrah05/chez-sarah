@@ -4,7 +4,7 @@ function Home(){
             <section className="home" id="top">
                 <div className="home-text">
                     <h1>DESSERTS</h1>
-                    <h1>Chez Srah 🌸</h1>
+                    <h1>Chez Sarah 🌸</h1>
 
                     <h2>Sweet Delights Made Just <br/>For You</h2>
 

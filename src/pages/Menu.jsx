@@ -35,6 +35,7 @@ function Menu(){
                     <h2>Cold Drinks</h2>
 
                     <button className="btn" onClick={()=>navigate("/menu/cold-drinks")}>View Drinks</button>
+
                 </div>
 
                 <div className="box">
@@ -45,6 +46,7 @@ function Menu(){
                     <h2>Hot Drinks</h2>
 
                     <button className="btn" onClick={()=>navigate("/menu/hot-drinks")}>View Drinks</button>
+
                 </div>
             </div>
         </section>
