@@ -374,8 +374,23 @@ header{
     text-align:center;
   }
 
+  header{
+    padding:10px 4%;
+  }
+
   .navbar{
     justify-content:center;
+    gap:8px;
+    flex-wrap:wrap;
+  }
+
+  .nav-link{
+    padding:6px 10px;
+    font-size:14px;
+  }
+
+  .logo{
+    font-size:20px;
   }
 
   .home-text h1{
@@ -391,11 +406,22 @@ header{
   }
 
   .footer{
-    flex-direction:column;
-    text-align:center;
+    padding:10px 4%;
+    gap:8px;
+  }
+
+  .footer h1{
+    font-size:22px;
+  }
+
+  .footer-item{
+    font-size:14px;
   }
 
   .footer-social{
     justify-content:center;
+    font-size:18px;
   }
+
+
 }
